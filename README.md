@@ -1,10 +1,10 @@
 # Greetings <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 ### I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.
 
-## About me 🧑‍🦱
+## 🧑‍🦱 About me
 **I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have also developed a <a href="https://github.com/Ibraheem0x45/Burraq-Engine"> <b><I>Game Engine with RTX</b></I></a> support as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
 
-## Connections 🔗
+## 🔗 Connections
 <p align="left">
   <a href="https://www.linkedin.com/in/msif/"><img title="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="https://twitter.com/saeenyoda"><img title="Follow on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/></a>
@@ -12,7 +12,7 @@
   <a href="https://github.com/saeenyoda"><img title="Follow on GitHub" src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
 
-## Tools ⚙️
+## ⚙️ Tools
 <p align="left">
 <a href="#">
 <img alt="C" src="https://img.shields.io/badge/c%20-%231565C0.svg?&style=for-the-badge&logo=c&logoColor=white"/>
@@ -47,7 +47,6 @@
  </a>
 </p>
 
-## Project Highlights 📈
+## 📈 Project Highlights
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&layout=compact&theme=outrun)](https://github.com/anuraghazra/github-readme-stats)  
-<!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&theme=outrun)](https://github.com/saeenyoda/AI-NEAT-PROJECT)  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Snake-Game---ASM&theme=outrun)](https://github.com/saeenyoda/Snake-Game---ASM)-->
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ibraheem0x45&repo=Burraq-Engine&theme=outrun)](https://github.com/ibraheem0x45/Burraq-Engine)  
