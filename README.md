@@ -1,6 +1,3 @@
-
-
-
 # Greetings <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 ### I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.
 
@@ -52,10 +49,7 @@
  </a>
 </p>
 
-## Project Highlights 🥇
-<a href="https://github.com/saeenyoda/AI-NEAT-PROJECT">
-<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
-<a href="https://github.com/saeenyoda/Snake-Game---ASM">
-<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Snake-Game---ASM&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
+## Project Highlights 📈
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&layout=compact&theme=outrun)](https://github.com/anuraghazra/github-readme-stats) 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&theme=outrun)](https://github.com/saeenyoda/AI-NEAT-PROJECT)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Snake-Game---ASM&theme=outrun)](https://github.com/saeenyoda/Sname-Game---ASM)
