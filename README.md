@@ -1,10 +1,11 @@
 
 
+
 # Greetings <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-**I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.**
+### I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.
 
 ## About me 🧑‍🦱
-I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan API's. Have developed a <a href="https://github.com/Ibraheem0x45/Burraq-Engine"> Game Engine with RTX</a> support as part of my Final Year Project (FYP) at University.
+**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan API's. Have developed a <a href="https://github.com/Ibraheem0x45/Burraq-Engine"> <b><I>Game Engine with RTX</b></I></a> support as part of my Final Year Project (FYP) at University.**
 
 ## Connections 🔗
 <p align="left">
