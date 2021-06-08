@@ -52,9 +52,7 @@
  </a>
 </p>
 
-## Github Status 📈
-<a href="https://github.com/saeenyoda/saeenyoda">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&hide=html, tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+## Project Highlights 🥇
 <a href="https://github.com/saeenyoda/AI-NEAT-PROJECT">
 <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
