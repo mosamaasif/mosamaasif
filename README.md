@@ -2,7 +2,7 @@
 ### I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.
 
 ## 🧑‍🦱 About me
-**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have also developed a <a href="https://github.com/Ibraheem0x45/Burraq-Engine"> <b><I>Game Engine with RTX</b></I></a> support as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
+**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have also developed a <a href="https://github.com/saeenyoda/Burraq-Engine"> <b><I>Game Engine with RTX</b></I></a> support as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
 
 ## 🔗 Connections
 <p align="left">
@@ -49,4 +49,4 @@
 
 ## 📈 Project Highlights
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&layout=compact&theme=outrun)](https://github.com/anuraghazra/github-readme-stats)  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ibraheem0x45&repo=Burraq-Engine&theme=outrun)](https://github.com/ibraheem0x45/Burraq-Engine)  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Burraq-Engine&theme=outrun)](https://github.com/saeenyoda/Burraq-Engine)  
