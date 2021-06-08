@@ -1,8 +1,12 @@
 
-# Greetings 👋
+
+# Greetings <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 **I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.**
 
-## Connections
+## About me 🧑‍🦱
+I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan API's. Have developed a <a href="https://github.com/Ibraheem0x45/Burraq-Engine"> Game Engine with RTX</a> support as part of my Final Year Project (FYP) at University.
+
+## Connections 🔗
 <p align="left">
   <a href="https://www.linkedin.com/in/msif/"><img title="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="https://www.facebook.com/sherlock.spockk"><img title="Connect on Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
@@ -12,7 +16,7 @@
   <a href="https://www.instagram.com/_mosama/"><img title="Follow on Instagram" src="https://img.shields.io/badge/Instagram-C62828?style=flat-square&logo=instagram&logoColor=white"/></a>
 </p>
 
-## Tools :gear:
+## Tools ⚙️
 <p align="left">
 <a href="#">
 <img alt="C" src="https://img.shields.io/badge/c%20-%231565C0.svg?&style=for-the-badge&logo=c&logoColor=white"/>
@@ -46,3 +50,13 @@
 <img alt="LaTeX" src="https://img.shields.io/badge/latex%20-%23008080.svg?&style=for-the-badge&logo=latex&logoColor=white"/>
  </a>
 </p>
+
+## Github Status 📈
+<a href="https://github.com/saeenyoda/saeenyoda">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&hide=html, tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+<a href="https://github.com/saeenyoda/AI-NEAT-PROJECT">
+<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
+<a href="https://github.com/saeenyoda/Snake-Game---ASM">
+<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Snake-Game---ASM&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
