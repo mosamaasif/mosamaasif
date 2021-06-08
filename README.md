@@ -7,11 +7,9 @@
 ## Connections 🔗
 <p align="left">
   <a href="https://www.linkedin.com/in/msif/"><img title="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://www.facebook.com/sherlock.spockk"><img title="Connect on Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
   <a href="https://twitter.com/saeenyoda"><img title="Follow on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/></a>
   <a href="mailto:osamaasif07@gmail.com"><img title="Email" src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/saeenyoda"><img title="Follow on GitHub" src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white"/></a>
-  <a href="https://www.instagram.com/_mosama/"><img title="Follow on Instagram" src="https://img.shields.io/badge/Instagram-C62828?style=flat-square&logo=instagram&logoColor=white"/></a>
 </p>
 
 ## Tools ⚙️
