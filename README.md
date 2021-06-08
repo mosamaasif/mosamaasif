@@ -49,5 +49,5 @@
 
 ## Project Highlights 📈
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&layout=compact&theme=outrun)](https://github.com/anuraghazra/github-readme-stats)  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&theme=outrun)](https://github.com/saeenyoda/AI-NEAT-PROJECT)  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Snake-Game---ASM&theme=outrun)](https://github.com/saeenyoda/Snake-Game---ASM)
+<!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=AI-NEAT-PROJECT&theme=outrun)](https://github.com/saeenyoda/AI-NEAT-PROJECT)  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Snake-Game---ASM&theme=outrun)](https://github.com/saeenyoda/Snake-Game---ASM)-->
