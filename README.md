@@ -2,7 +2,7 @@
 ### I am *Osama*, Sith and a part-time Comp Sci Senior at FAST-NU Lahore.
 
 ## 🧑‍🦱 About me
-**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have also developed a <a href="https://github.com/saeenyoda/Burraq-Engine"> <b><I>Game Engine with RTX</b></I></a> support as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
+**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I am also developing a <a href="https://github.com/saeenyoda/Burraq-Engine"> <b><I>Game Engine with RTX</b></I></a> support as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
 
 ## 🔗 Connections
 <p align="left">
