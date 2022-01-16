@@ -1,7 +1,7 @@
 # Greetings <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 ### I am *Osama*, Sith and a part-time Computer Scientist.
 
-## 🧑‍🦱 About me
+## 🧑 About me
 **I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have developed a <a href="https://github.com/saeenyoda/Burraq-Engine"> <b><I>Game Engine</b></I></a> as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
 
 ## 🔗 Connections
