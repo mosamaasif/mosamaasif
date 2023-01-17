@@ -1,7 +1,5 @@
 <h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Greetings!+👋;This+is+Muhammad+Osama....;Nice+to+meet+you!&center=true&size=28">
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=20&color=08FC12&center=true&vCenter=true&lines=Greetings+%F0%9F%91%8B!;This+is+Muhammad+Osama.;Welcome+to+my+Profile!" alt="Typing SVG" /></a>
 </h1>
 
 <h2 align="center"> I am <em>Osama</em>, Sith and a part-time Frontend Game Developer. </h2>
