@@ -53,5 +53,7 @@
 </p>
 
 ## 📈 Highlights
-[![Trophy](https://github-profile-trophy.vercel.app/?username=mosamaasif&theme=gruvbox)](https://github.com/ryo-ma/github-profile-trophy)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mosamaasif&show_icons=true&count_private=true&hide=javascript,css,html,php,go&langs_count=4&layout=compact&theme=outrun)](https://github.com/mosamaasif)  
+[![Trophy](https://github-profile-trophy.vercel.app/?username=mosamaasif&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Streak](https://streak-stats.demolab.com?user=mosamaasif&theme=gruvbox)](https://git.io/streak-stats)
+<br />
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mosamaasif&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
