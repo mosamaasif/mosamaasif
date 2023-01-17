@@ -7,14 +7,14 @@
 <h2 align="center"> I am <em>Osama</em>, Sith and a part-time Computer Scientist. </h2>
 
 ## 🧑 About me
-**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have developed a <a href="https://github.com/saeenyoda/Burraq-Engine"> <b><I>Game Engine</b></I></a> as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
+**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs. I have developed a <a href="https://github.com/mosamaasif/Burraq-Engine"> <b><I>Game Engine</b></I></a> as part of my Final Year Project (FYP) at University. Along with this I have developed other projects as well, both personal and University related, using different tools/languages.**
 
 ## 🔗 Connections
 <p align="left">
-  <a href="https://www.linkedin.com/in/msif/"><img title="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mosamasif/"><img title="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="https://twitter.com/saeenyoda"><img title="Follow on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/></a>
   <a href="mailto:osamaasif07@gmail.com"><img title="Email" src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/saeenyoda"><img title="Follow on GitHub" src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/mosamaasif"><img title="Follow on GitHub" src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
 
 ## ⚙️ Tools
@@ -53,5 +53,5 @@
 </p>
 
 ## 📈 Highlights
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saeenyoda&show_icons=true&count_private=true&hide=javascript,css,html,php,go&langs_count=4&layout=compact&theme=outrun)](https://github.com/saeenyoda)  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=saeenyoda&repo=Burraq-Engine&theme=outrun)](https://github.com/saeenyoda/Burraq-Engine)  
+[![Trophy](https://github-profile-trophy.vercel.app/?username=mosamaasif&theme=gruvbox)](https://github.com/ryo-ma/github-profile-trophy)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mosamaasif&show_icons=true&count_private=true&hide=javascript,css,html,php,go&langs_count=4&layout=compact&theme=outrun)](https://github.com/mosamaasif)  
