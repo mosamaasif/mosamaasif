@@ -56,4 +56,4 @@
 [![Trophy](https://github-profile-trophy.vercel.app/?username=mosamaasif&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 [![GitHub Streak](https://streak-stats.demolab.com?user=mosamaasif&theme=gruvbox)](https://git.io/streak-stats)
 <br />
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mosamaasif&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mosamaasif&include_orgs=true&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
