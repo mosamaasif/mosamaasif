@@ -55,3 +55,4 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=mosamaasif&theme=gruvbox)](https://git.io/streak-stats)
 <br />
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mosamaasif&include_orgs=true&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=mosamaasif&theme=gruvbox&radius=8&area=true&custom_title=Contribution%20Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
