@@ -5,7 +5,7 @@
 <h2 align="center"> I am <em>Osama</em>, Sith and a part-time Frontend Game Developer. </h2>
 
 ## 🧑 About me
-**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs and created a simple <a href="https://github.com/mosamaasif/Burraq-Engine"> <b><I>Game Engine</b></I></a> as part of my Final Year Project (FYP) at University. Currently working at Revolving Games Inc, as a Front-End Game Developer where I am using Unity Game Engine. I have worked on other technologies too, including Android, NextJS/ReactJS etc.**
+**I have a passion for Computer Graphics, and have worked with OpenGL and Vulkan APIs and created a simple <a href="https://github.com/mosamaasif/Burraq-Engine"> <b><I>Rendering Engine</b></I></a> as part of my Final Year Project (FYP) at University. Currently working at Revolving Games Inc, as a Front-End Game Developer where I am using Unity Game Engine. I have worked on other technologies too, including Android, NextJS/ReactJS etc.**
 
 ## 🔗 Connections
 <p align="left">
