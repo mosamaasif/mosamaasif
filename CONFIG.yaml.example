@@ -1,0 +1,67 @@
+# GitHub Configuration
+# Create a Personal Access Token at: https://github.com/settings/tokens
+# Required scopes: repo, read:user, read:org
+github:
+  username: YOUR_GITHUB_USERNAME
+  token: YOUR_GITHUB_PERSONAL_ACCESS_TOKEN
+
+# Personal Information
+# This information will be displayed in the terminal-styled profile
+personal:
+  name: Your Full Name
+  role: Software Engineer | Developer | Your Title
+  location: City, Country | Earth | Remote
+  bio: A brief description of what you do or what you're passionate about
+
+# Tech Stack
+# List your programming languages, frameworks, tools, and databases
+# The first few items in each category will be displayed prominently
+tech_stack:
+  languages:
+    - Python
+    - JavaScript
+    - TypeScript
+    - Go
+    - Rust
+    - Java
+    # Add more languages you work with
+
+  frameworks:
+    - React
+    - Node.js
+    - FastAPI
+    - Django
+    - Next.js
+    - Express
+    # Add more frameworks you use
+
+  tools:
+    - Git
+    - Docker
+    - Kubernetes
+    - VS Code
+    - GitHub Actions
+    - AWS
+    # Add more tools you use
+
+  databases:
+    - PostgreSQL
+    - MongoDB
+    - Redis
+    - MySQL
+    - SQLite
+    # Add more databases you work with
+
+# Social Links
+# These links will be displayed in the Connect section
+social:
+  email: your.email@example.com
+  linkedin: https://linkedin.com/in/yourprofile
+  twitter: https://twitter.com/yourhandle
+  website: https://yourwebsite.com
+
+# ASCII Art Settings
+# Configure the ASCII art portrait appearance
+ascii:
+  width: 50  # Width in characters (40-70 recommended)
+  portrait_path: assets/portrait.png  # Path to your portrait image
