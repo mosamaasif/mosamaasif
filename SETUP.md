@@ -1,247 +1,130 @@
 # Setup Guide for Terminal-Styled GitHub Profile
 
-This guide will walk you through setting up your terminal-styled GitHub profile README.
+Want to create your own terminal-styled profile? Follow these steps:
 
-## Step 1: Create GitHub Personal Access Token
+## Prerequisites
 
-1. Go to GitHub Settings: https://github.com/settings/tokens
-2. Click "Generate new token (classic)"
-3. Give it a descriptive name (e.g., "Profile README Generator")
-4. Select the following scopes:
-   - ✅ `repo` (Full control of private repositories)
-   - ✅ `read:user` (Read user profile data)
-   - ✅ `read:org` (Read org and team membership)
-5. Click "Generate token"
-6. **Important**: Copy the token immediately (you won't be able to see it again)
+- GitHub account
+- GitHub Personal Access Token with `repo`, `read:user`, and `read:org` scopes
+- A portrait image (PNG or JPG)
 
-## Step 2: Configure Your Profile
+## Repository Setup
 
-1. Open `CONFIG.yaml` in a text editor
-2. Replace the placeholder values with your information:
+1. Create a repository named after your GitHub username (e.g., `username/username`)
+2. Clone this repository structure
+3. Add your portrait image to `assets/portrait.png`
 
-```yaml
-github:
-  username: YOUR_GITHUB_USERNAME
-  token: YOUR_PERSONAL_ACCESS_TOKEN  # Paste the token from Step 1
+## Configuration
 
-personal:
-  name: Your Full Name
-  role: Your Role/Title
-  location: Your Location
-  bio: A brief bio about yourself
+1. Copy `CONFIG.yaml.example` to `CONFIG.yaml` and fill in your information:
+   - GitHub username and token
+   - Personal details (name, role, location, bio)
+   - Tech stack (languages, frameworks, tools, databases)
+   - Social links (email, LinkedIn, Twitter, website)
 
-tech_stack:
-  languages:
-    - Python
-    - JavaScript
-    # Add your languages
-  frameworks:
-    - React
-    - Node.js
-    # Add your frameworks
-  tools:
-    - Git
-    - Docker
-    # Add your tools
-  databases:
-    - PostgreSQL
-    - MongoDB
-    # Add your databases
+2. Update ASCII art settings if needed (width, portrait path)
 
-social:
-  email: your.email@example.com
-  linkedin: https://linkedin.com/in/yourprofile
-  twitter: https://twitter.com/yourhandle
-  website: https://yourwebsite.com
-```
-
-3. Save the file
-
-⚠️ **Security Note**: `CONFIG.yaml` is gitignored by default to keep your token safe. Never commit this file to GitHub!
-
-## Step 3: Add Your Portrait
-
-1. Choose a portrait image (headshot, avatar, logo, etc.)
-2. Save it as `assets/portrait.png`
-3. Recommended specifications:
-   - Format: PNG or JPG
-   - Size: 500x500 to 1000x1000 pixels
-   - Clear, high-contrast image works best for ASCII conversion
-   - Face/subject should be centered and well-lit
-
-## Step 4: Install Dependencies
+## Local Testing
 
 ```bash
-# Make sure you have Python 3.11+ installed
-python --version
-
-# Install required packages
+# Install dependencies
 pip install -r requirements.txt
-```
 
-## Step 5: Test Locally
-
-```bash
 # Generate SVG files
 cd scripts
 python generate_svg.py
 ```
 
-This will:
-1. Fetch your GitHub statistics
-2. Convert your portrait to colored ASCII art
-3. Generate `assets/dark_mode.svg` and `assets/light_mode.svg`
+Check the generated files in `assets/dark_mode.svg` and `assets/light_mode.svg`.
 
-Open the SVG files in a web browser to preview them.
+## GitHub Actions Setup
 
-## Step 6: Push to GitHub
+1. Go to repository Settings → Secrets and variables → Actions
+2. Add repository secret `GH_TOKEN` with your Personal Access Token
+3. Enable GitHub Actions in repository settings
+4. The workflow will run automatically daily at 4:00 AM UTC
 
-1. Create a new repository on GitHub named after your username (e.g., `username/username`)
-2. Initialize and push:
+## Manual Update
 
-```bash
-git init
-git add .
-git commit -m "feat: Add terminal-styled profile README"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.git
-git push -u origin main
-```
-
-## Step 7: Set Up GitHub Actions
-
-### Option A: Use GITHUB_TOKEN (Recommended for testing)
-
-The workflow will use the automatic `GITHUB_TOKEN` provided by GitHub Actions. This works but has lower rate limits.
-
-### Option B: Use Personal Access Token (Recommended for production)
-
-1. Go to your repository Settings → Secrets and variables → Actions
-2. Click "New repository secret"
-3. Name: `GH_TOKEN`
-4. Value: Paste your Personal Access Token from Step 1
-5. Click "Add secret"
-
-Then update `.github/workflows/update_readme.yml` to use it:
-
-```yaml
-- name: Generate SVG files
-  env:
-    GH_TOKEN: ${{ secrets.GH_TOKEN }}
-  run: |
-    cd scripts
-    python generate_svg.py
-```
-
-## Step 8: Enable GitHub Actions
-
-1. Go to your repository on GitHub
-2. Click the "Actions" tab
-3. If prompted, click "I understand my workflows, go ahead and enable them"
-4. You should see the "Update GitHub Profile README" workflow
-
-## Step 9: Test the Workflow
-
-1. Go to Actions tab
-2. Click "Update GitHub Profile README"
-3. Click "Run workflow" → "Run workflow"
-4. Wait for the workflow to complete (should take 30-60 seconds)
-5. Check the repository - you should see a new commit from github-actions bot
-
-## Step 10: Verify the Profile
-
-1. Go to your profile: https://github.com/YOUR_USERNAME
-2. You should see the terminal-styled README
-3. Try switching your system between dark and light mode to see both themes
+To trigger an update manually:
+- Go to Actions tab in your repository
+- Select "Update GitHub Profile README" workflow
+- Click "Run workflow"
 
 ---
 
-## Customization Ideas
+## Customization
 
-### Change ASCII Art Width
+### Colors
 
-In `CONFIG.yaml`:
-```yaml
-ascii:
-  width: 60  # Increase for more detail, decrease for faster generation
-```
+Modify the Gruvbox color schemes in `scripts/config.py`:
+- `DARK_COLORS`: Dark theme palette
+- `LIGHT_COLORS`: Light theme palette
 
-### Adjust SVG Dimensions
+### Layout
 
-In `scripts/config.py`:
-```python
-SVG_WIDTH = 1200  # Make wider
-SVG_HEIGHT = 600  # Make taller
-```
+Adjust dimensions and spacing in `scripts/config.py`:
+- `SVG_WIDTH` and `SVG_HEIGHT`: Overall size
+- `LEFT_COLUMN_WIDTH`: System info column width (0.0 - 1.0)
+- `LINE_HEIGHT_INFO`: Spacing for text
+- `LINE_HEIGHT_ASCII`: Spacing for ASCII art
 
-### Modify Update Schedule
+### ASCII Art
 
-In `.github/workflows/update_readme.yml`:
+Change ASCII art appearance:
+- `ASCII_WIDTH`: Width in characters (default: 45)
+- `ASCII_CHARS`: Character set for brightness mapping
+- Replace `assets/portrait.png` with your own image
+
+### Update Frequency
+
+Modify the cron schedule in `.github/workflows/update_readme.yml`:
 ```yaml
 schedule:
-  - cron: '0 */12 * * *'  # Run every 12 hours instead of daily
-```
-
-### Change Color Scheme
-
-While this project uses Gruvbox, you can modify colors in `scripts/config.py`:
-```python
-DARK_COLORS = {
-    'bg': '#1e1e1e',  # Your background
-    'fg': '#d4d4d4',  # Your foreground
-    # ... modify other colors
-}
+  - cron: '0 4 * * *'  # Daily at 4:00 AM UTC
 ```
 
 ---
 
 ## Troubleshooting
 
-### "CONFIG.yaml not found" error
+### SVG not displaying
 
-Make sure you're running the script from the correct directory and CONFIG.yaml exists in the project root.
+- Ensure files are in `assets/` directory
+- Check file names match: `dark_mode.svg` and `light_mode.svg`
+- Verify SVG files are valid XML
 
-### GitHub API errors
+### GitHub API rate limiting
 
-- Verify your token has correct scopes
-- Check if token is expired
-- Ensure token is set in CONFIG.yaml or as GH_TOKEN environment variable
+- Use Personal Access Token (5,000 requests/hour)
+- Reduce update frequency
+- Check cache in `scripts/cache.json`
 
-### Portrait not converting properly
+### Colors don't look right
 
-- Try a different image with better contrast
-- Adjust the ASCII_WIDTH (try 40, 50, 60, 70)
-- Ensure image is in supported format (PNG, JPG)
+- Verify hex codes in `config.py` against [official Gruvbox palette](https://github.com/morhetz/gruvbox)
+- Test in incognito mode (browser extensions can affect colors)
+- Check system color profile settings
 
-### Workflow fails with permission error
+### Workflow not running
 
-- Go to Settings → Actions → General
-- Under "Workflow permissions", select "Read and write permissions"
-- Save changes and re-run workflow
-
-### SVG looks broken
-
-- Validate SVG syntax using an online validator
-- Check for special characters that need escaping
-- Ensure file is valid UTF-8 encoded
+- Verify GitHub Actions is enabled in repository settings
+- Check workflow permissions (Settings → Actions → General → Workflow permissions)
+- Ensure `GITHUB_TOKEN` secret exists
+- Review workflow logs in Actions tab
 
 ---
 
-## Support
+## Technologies Used
 
-If you encounter issues:
-
-1. Check the [Troubleshooting section in README.md](README.md#troubleshooting)
-2. Review workflow logs in the Actions tab
-3. Look for similar issues in the original inspiration project
+- **Python**: Core logic and orchestration
+- **lxml**: SVG generation and manipulation
+- **Pillow**: Image processing for ASCII art
+- **NumPy**: Color calculations and array operations
+- **Requests**: GitHub GraphQL API client
+- **PyYAML**: Configuration file parsing
+- **GitHub Actions**: Automation and scheduling
 
 ---
 
-## Next Steps
-
-- ⭐ Star the repository if you find it useful
-- 🍴 Fork it to create your own version
-- 🐛 Report bugs or suggest features
-- 📢 Share your terminal-styled profile!
-
-Happy coding! 🚀
+For more information, see the main [README](README.md).
