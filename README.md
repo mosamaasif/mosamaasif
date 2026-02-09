@@ -44,7 +44,3 @@ This project is open source and available under the MIT License.
 ---
 
 *Last updated: Automatically via GitHub Actions*
-
-<div align="center">
-  <sub>Built with ❤️ using Claude Code</sub>
-</div>
