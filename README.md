@@ -10,7 +10,6 @@ This terminal-styled profile is automatically updated daily with my latest GitHu
 
 - **Theme**: Gruvbox Dark
 - **Tech Stack**: Python, SVG, lxml, GitHub Actions
-- **Inspiration**: [Andrew6rant](https://github.com/Andrew6rant/Andrew6rant)
 
 ### Features
 
