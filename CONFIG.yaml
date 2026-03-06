@@ -1,0 +1,45 @@
+# GitHub Configuration
+github:
+  username: mosamaasif
+  token: ""  # Set via GH_TOKEN env var (GitHub Actions uses secrets.GITHUB_TOKEN)
+
+# Personal Information
+personal:
+  name: Muhammad Osama Asif
+  role: Software Engineer
+  location: Earth (PK)
+  bio: Transforming matrices into magic at Revolving Games | Unity, Vulkan, & OpenGL Enthusiast 🚀
+
+# Tech Stack
+tech_stack:
+  languages:
+    - C/C++
+    - C#
+    - OpenGL/Vulkan
+    - Python
+    - JavaScript/TypeScript
+  frameworks:
+    - React
+    - Node.js
+    - FastAPI
+    - NextJS
+  tools:
+    - Git
+    - Docker
+    - VS Code
+    - Claude Code
+  databases:
+    - PostgreSQL
+    - MongoDB
+    - Redis
+
+# Social Links
+social:
+  email: osamaasif07@gmail.com
+  linkedin: https://www.linkedin.com/in/mosamasif/
+  website: https://mosamaasif.dev
+
+# ASCII Art Settings
+ascii:
+  width: 45
+  portrait_ascii_path: assets/portrait_ascii.json
