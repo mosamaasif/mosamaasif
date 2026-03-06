@@ -47,7 +47,7 @@ class Config:
 
     # ASCII art settings
     ASCII_WIDTH = _config['ascii']['width']
-    PORTRAIT_PATH = Path(__file__).parent.parent / _config['ascii']['portrait_path']
+    PORTRAIT_ASCII_PATH = Path(__file__).parent.parent / _config['ascii']['portrait_ascii_path']
 
     # SVG dimensions
     SVG_WIDTH = 1000

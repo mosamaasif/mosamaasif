@@ -3,6 +3,8 @@ SVG generator for terminal-styled GitHub profile README.
 Generates dark and light mode SVG files with Gruvbox theme.
 """
 
+import json
+
 from lxml import etree
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
@@ -10,7 +12,6 @@ import sys
 
 from config import Config
 from github_stats import GitHubStats
-from ascii_converter import ColoredASCIIConverter, create_placeholder_ascii
 
 
 class SVGGenerator:
@@ -396,21 +397,23 @@ def main():
             'following': 0,
         }
 
-    # Generate ASCII art
-    print(f"\n🖼️  Converting portrait to ASCII art...")
+    # Load ASCII art from pre-extracted JSON
+    print(f"\n🖼️  Loading ASCII art portrait...")
     assets_dir = Path(__file__).parent.parent / 'assets'
     assets_dir.mkdir(exist_ok=True)
 
-    # Dark mode
-    print("\n🌙 Generating dark mode...")
-    dark_converter = ColoredASCIIConverter(Config.DARK_PALETTE)
-
+    portrait_json_path = Config.PORTRAIT_ASCII_PATH
     try:
-        dark_ascii = dark_converter.convert_image(str(Config.PORTRAIT_PATH), Config.ASCII_WIDTH)
-        print(f"✓ Converted portrait to {len(dark_ascii)} characters")
+        with open(portrait_json_path, 'r') as f:
+            raw_data = json.load(f)
+        dark_ascii = [(char, color) for char, color in raw_data]
+        print(f"✓ Loaded portrait: {len(dark_ascii)} elements")
     except FileNotFoundError:
-        print("⚠️  Portrait not found, using placeholder")
+        print("⚠️  portrait_ascii.json not found, using placeholder")
+        from ascii_converter import create_placeholder_ascii
         dark_ascii = create_placeholder_ascii(50, 30, Config.DARK_COLORS['yellow'])
+
+    print("\n🌙 Generating dark mode...")
 
     dark_generator = SVGGenerator('dark')
     dark_svg = dark_generator.generate_svg(stats, dark_ascii)

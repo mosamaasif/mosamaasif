@@ -170,7 +170,7 @@ if __name__ == "__main__":
     converter = ColoredASCIIConverter(Config.DARK_PALETTE)
 
     try:
-        ascii_art = converter.convert_image(str(Config.PORTRAIT_PATH), Config.ASCII_WIDTH)
+        ascii_art = converter.convert_image("assets/portrait.png", Config.ASCII_WIDTH)
         print(f"Generated ASCII art with {len(ascii_art)} characters")
 
         # Print first few lines
