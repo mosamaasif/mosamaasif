@@ -46,14 +46,14 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet assets/*.svg scripts/cache.json || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --quiet assets/*.svg || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/*.svg scripts/cache.json
+          git add assets/*.svg
           git commit -m "🤖 Update GitHub stats [skip ci]"
           git push
 
