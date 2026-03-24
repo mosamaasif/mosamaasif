@@ -1,34 +1,36 @@
 # GitHub Configuration
 github:
   username: mosamaasif
-  token: ""  # Set via GH_TOKEN env var (GitHub Actions uses secrets.GITHUB_TOKEN)
+  token: ""  # env var
 
 # Personal Information
 personal:
   name: Muhammad Osama Asif
   role: Software Engineer
   location: Earth (PK)
-  bio: Transforming matrices into magic at Revolving Games | Unity, Vulkan, & OpenGL Enthusiast 🚀
+  bio: Transforming matrices into magic at Revolving Games | Graphics Programming Enthusiast | Unraveling Distributed Systems
 
 # Tech Stack
 tech_stack:
   languages:
     - C/C++
     - C#
-    - OpenGL/Vulkan
+    - Vulkan/OpenGL
     - Python
-    - JavaScript/TypeScript
+    - Rust
+    - Javascript/Typescript
   frameworks:
+    - .NET
     - React
     - Node.js
     - FastAPI
     - NextJS
   tools:
+    - Unity
+    - Unreal Engine
     - Git
     - Docker
-    - VS Code
     - Claude Code
-  databases:
     - PostgreSQL
     - MongoDB
     - Redis
