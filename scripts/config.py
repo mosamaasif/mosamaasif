@@ -37,7 +37,6 @@ class Config:
     TECH_LANGUAGES = _config['tech_stack']['languages']
     TECH_FRAMEWORKS = _config['tech_stack']['frameworks']
     TECH_TOOLS = _config['tech_stack']['tools']
-    TECH_DATABASES = _config['tech_stack']['databases']
 
     # Social links
     SOCIAL_EMAIL = _config['social']['email']
