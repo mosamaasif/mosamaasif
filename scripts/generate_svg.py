@@ -245,11 +245,6 @@ class SVGGenerator:
         self.add_text(parent, f": {tools}", x + 120, current_y, 'tech')
         current_y += line_height
 
-        self.add_text(parent, "Databases", x, current_y, 'label')
-        databases = ", ".join(Config.TECH_DATABASES[:3])
-        self.add_text(parent, f": {databases}", x + 120, current_y, 'tech')
-        current_y += line_height * 1.5
-
         # Connect
         self.add_text(parent, "Connect", x, current_y, 'header')
         current_y += line_height
