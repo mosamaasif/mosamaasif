@@ -41,33 +41,31 @@
     <text x="130" y="129.0" class="terminal value">: Earth (PK)</text>
     <text x="10" y="151.0" class="terminal label">Bio</text>
     <text x="130" y="151.0" class="terminal value">: Transforming matrices into magic at</text>
-    <text x="130" y="173.0" class="terminal value">Revolving Games | Unity, Vulkan, &amp; OpenGL</text>
-    <text x="130" y="195.0" class="terminal value">Enthusiast 🚀</text>
+    <text x="130" y="173.0" class="terminal value">Revolving Games | Graphics Programming</text>
+    <text x="130" y="195.0" class="terminal value">Enthusiast | Unraveling Distributed Systems</text>
     <text x="10" y="228.0" class="terminal header">GitHub Stats</text>
     <text x="10" y="250.0" class="terminal label">Repositories</text>
     <text x="130" y="250.0" class="terminal stat">: 20</text>
     <text x="10" y="272.0" class="terminal label">Stars</text>
     <text x="130" y="272.0" class="terminal stat">: 6</text>
     <text x="10" y="294.0" class="terminal label">Commits</text>
-    <text x="130" y="294.0" class="terminal stat">: 33</text>
+    <text x="130" y="294.0" class="terminal stat">: 36</text>
     <text x="10" y="316.0" class="terminal label">Contributions</text>
-    <text x="130" y="316.0" class="terminal stat">: 499</text>
+    <text x="130" y="316.0" class="terminal stat">: 505</text>
     <text x="10" y="338.0" class="terminal label">Followers</text>
     <text x="130" y="338.0" class="terminal stat">: 13</text>
     <text x="10" y="371.0" class="terminal header">Tech Stack</text>
     <text x="10" y="393.0" class="terminal label">Languages</text>
-    <text x="130" y="393.0" class="terminal tech">: C/C++, C#, OpenGL/Vulkan, Python</text>
+    <text x="130" y="393.0" class="terminal tech">: C/C++, C#, Vulkan/OpenGL, Python</text>
     <text x="10" y="415.0" class="terminal label">Frameworks</text>
-    <text x="130" y="415.0" class="terminal tech">: React, Node.js, FastAPI</text>
+    <text x="130" y="415.0" class="terminal tech">: .NET, React, Node.js</text>
     <text x="10" y="437.0" class="terminal label">Tools</text>
-    <text x="130" y="437.0" class="terminal tech">: Git, Docker, VS Code, Claude Code</text>
-    <text x="10" y="459.0" class="terminal label">Databases</text>
-    <text x="130" y="459.0" class="terminal tech">: PostgreSQL, MongoDB, Redis</text>
-    <text x="10" y="492.0" class="terminal header">Connect</text>
-    <text x="10" y="514.0" class="terminal label">Email</text>
-    <text x="130" y="514.0" class="terminal social">: osamaasif07@gmail.com</text>
-    <text x="10" y="536.0" class="terminal label">LinkedIn</text>
-    <text x="130" y="536.0" class="terminal social">: mosamasif</text>
+    <text x="130" y="437.0" class="terminal tech">: Unity, Unreal Engine, Git, Docker</text>
+    <text x="10" y="459.0" class="terminal header">Connect</text>
+    <text x="10" y="481.0" class="terminal label">Email</text>
+    <text x="130" y="481.0" class="terminal social">: osamaasif07@gmail.com</text>
+    <text x="10" y="503.0" class="terminal label">LinkedIn</text>
+    <text x="130" y="503.0" class="terminal social">: mosamasif</text>
     <text x="570" y="96" class="terminal" fill="#458588">.</text>
     <text x="578" y="96" class="terminal" fill="#458588">.</text>
     <text x="586" y="96" class="terminal" fill="#458588">.</text>
